@@ -7,7 +7,23 @@ image:https://img.shields.io/badge/SonarQube-checked-blue?logo=sonarqube["SonarQ
 == FestivalManager
 
 - Softwaretechnologie-Projekt an der TU Dresden 
-- was ich hauptsächlich gemacht habe:
+- was hauptsächlich ich gemacht habe (code):
+  * FestivalManager/src/main/java/festivalmanager/
+    ** festival/*
+    ** location/*
+    ** communication/*
+    ** error/*
+    ** Util/*
+    ** storage/*
+  * FestivalManager/src/main/resources/
+    ** static/resources/js/location_locationmap.js
+    ** templates/ (die zu oben zugehörigen templates)
+  * FestivalManager/src/test/java/festivalmanager/
+    ** communication/*
+    ** festival/*
+    ** location/*
+    ** AbstractIntegrationTests.java
+    
 
 == Important documents in this repo
 
