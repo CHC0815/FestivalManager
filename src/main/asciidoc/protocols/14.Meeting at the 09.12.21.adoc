@@ -1,0 +1,84 @@
+=== Meeting at the 09.12.2021
+
+Place: BBB       +
+Start:   16:40 Uhr +
+End:     17:50
+
+__Person that will write:__ Franz Nolasco
+
+Next Meeting :* 09.12.2021
+
+
+__Participants:__
+//Tabellarisch oder Aufzählung, Kennzeichnung von Teilnehmern mit besonderer Rolle (z.B. Kunde)
+
+- Franz 
+- Conrad 
+- Aleksey
+- Philipp
+- Cornelius
+- Tom (Tutor)
+
+== Remarks
+- In this meeting we have talked about the mid-term presentation that it will be done this week
+- We prepared our mid term presentation and it is ready to be presented 
+- Almost all of the must criteria have been done, only the package finance is missing
+- In the meeting the tutor have seen all of the basis functionalities and he gave us his last veredict about it , and also some advices to improve it 
+- We talked about the following meetings and also about the final presentation
+- Some edge cases need to be fixed
+- The tutor told us about the cross Testing with the other group , and for those reasons till sunday the must criteria need to be there
+- We have asked some questions about some problems with the code to the tutor 
+
+== Retrospective of the last sprint
+*Issue referenziert die Issue ID von GitHub*
+// Wie ist der Status der im letzten Sprint erstellten Issues/veteilten Aufgaben?
+
+// See http://asciidoctor.org/docs/user-manual/=tables
+[option="headers"]
+|===
+|Issue |Aufgabe |Status |Bemerkung
+|make one radiobutton field checked by default     | in catering html template     |Closed      | Assigned to Philipp                
+|Fix image upload     | delete old image before saving new one         |Closed   | Assigned to Conrad              
+|automatische Nachrichten    | the page gives an automatic message, when someone writes to the festivalleiter    |Closed        |Assigned to Conrad , Philipp, Cornelius             
+|Tickets drücken      | when a customer buys a ticket, it gets the pressed ticket       |Closed       |Assigned to Franz, Aleksey            
+|Ticketerstellung    | Create a ticket        |Closed    |Franz , Aleksey            
+|Ticketverkauf     |  the customer has the posibility to buy a ticket      |Closed    |Assigned to Aleksey, Franz              
+|Personal abrechnen    | posibility to bill the staff         |Open    |Assigned to Cornelius          
+|Items abrechnen     | posibility to bill the items      |Open   |Assigned to Cornelius              
+|Einnahmen abrechnen(tickets)     | posbility to bill the ticktes      |Open    |Assigned to Cornelius            
+|Künstler abrechnen   | posiblity to bill the artist         |Open   |Assigned to Cornelius            
+|Location abrechnen     | posiblity to bill the location          |Open    |Assigned to Cornelius            
+|Finanzbericht     | template of the finances of a festival        |Open   |Assigned to Cornelius           
+          
+
+
+|===
+
+
+== Current Status
+We are still coding in the branch Developer, all the basis functionalities have been done and also most of the muss criteria, which only one thing is missing, 
+in the following weeks we need to see the edge cases of each package, and try to solve them as well as start testing the code, we are really cautious of the code smells 
+and we try to avoid them / fixe them every single time that we have the possibility. Some little text.adoc needs to be prepared for the cross testing, thing that will be done
+till this sunday. We are also aware of the mid- term presentation this week , and for those reasons we have prepared for this thing. 
+
+== Planning of the next sprint
+*Issue referenziert die Issue ID von GitHub*
+
+// See http://asciidoctor.org/docs/user-manual/=tables
+[option="headers"]
+|===
+|Issue |Titel |Beschreibung |Verantwortlicher |Status
+|#33     |Test     |testing of the project            |Franz, Philipp, Conrad, Aleksey, Cornelius             |Open
+|#47    |Personal abrechnen   |posibility to bill the staff           |Cornelius            |Open
+|#46    |Items abrechnen    |posibility to bill the items         |Cornelius              |Open
+|#45    |Einnahmen abrechnen(tickets)   | posbility to bill the ticktes          |Cornelius             |Open
+|#38    |Künstler abrechnen     |posiblity to bill the artist          |Cornelius              |Open
+|#37    |Location abrechnen     |posiblity to bill the location             |Cornelius             |Open
+|#36    |Finanzbericht    |template of the finances of a festival           |Cornelius           |Open
+          
+
+
+|===
+
+
+

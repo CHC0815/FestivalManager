@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{layout.html}">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+</head>
+
+<body>
+<section layout:fragment="content">
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+        <div class="position-sticky pt-3">
+          <ul class="list-unstyled ps-0">
+            <li class="mb-1">
+              <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+                Staff account
+              </button>
+              <div class="collapse" id="account-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li><a href="/new_personal" th:href="@{/new_personal}" class="link-dark rounded">New...</a></li>
+                  <li><a href="/team" th:href="@{/team}" class="link-dark rounded">Team</a></li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn-toggle align-items-center rounded" aria-current="page">
+                Messages
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          <h1 class="h2">Dashboard</h1>
+        </div>
+
+
+          <table class="ui celled table">
+            <thead>
+            <tr>
+              <th th:text="#{users.name}">Name</th>
+              <th th:text="#{users.position}">Position</th>
+              <th th:text="#{users.address}">Address</th>
+              <th th:text="#{users.workplace}">Work Place</th>
+              <th>Festival</th>
+            </tr>
+            </thead>
+            <tbody th:remove="all-but-first">
+            <tr th:each=" user : ${userList}">
+              <td th:text="${user.userAccount.id}">Id</td>
+              <td th:text="${user.position}">Position</td>
+              <th th:text="${user.address}">Address</th>
+              <th th:text="${user.workPlace}">Work Place</th>
+              <th th:text="${user.festival.name}">Work Place</th>
+              <td>
+                <form th:action="@{|/dashboard/team/personal_edit/${user.getId()}|}" method="get">
+                  <button type="submit"  class="btn btn-warning">Edit</button>
+                </form>
+              </td>
+              <td>
+                <form th:action="@{|/dashboard/team/deleteUserById/${user.getId()}|}" method="post">
+                  <button type="submit" class="btn btn-danger">Delete</button>
+                </form>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+      </main>
+    </div>
+  </div>
+</section>
+</body>
+
+</html>

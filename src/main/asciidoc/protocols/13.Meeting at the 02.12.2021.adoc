@@ -1,0 +1,114 @@
+=== Meeting at the 02.12.2021
+
+Place: BBB       +
+Start:   16:40 Uhr +
+End:     17:50
+
+__Person that will write:__ Franz Nolasco
+
+Next Meeting :* 09.12.2021
+
+
+__Participants:__
+//Tabellarisch oder Aufzählung, Kennzeichnung von Teilnehmern mit besonderer Rolle (z.B. Kunde)
+
+- Franz 
+- Conrad 
+- Aleksey
+- Philipp
+- Cornelius
+- Tom (Tutor)
+
+== Remarks
+- In this meeting we have talked about the mid-term presentation that it will be done the next week, and the tutor has given us some advices about it
+- We talked about some missunderstandings that we had with one of our colleges , and we reached a solution about it 
+- The problems with order in the developer’s documentation have been solved, and we are looking forward to continue like that
+- Some bugs that we have found in our code have solved, with the help of the tutor
+- The tutor has given us his opinion of the current code that we are doing, ad it is looking well since now
+- Most of the code smells have been resolved.
+- There are still some things that we need to improve in the branch - developer , and they will be done till next meeting
+- The basis functionalities have been already done and we have started to doing the must criteria, which are going to be added to the basis funcionalities that we have done since now.
+
+== Retrospective of the last sprint
+*Issue referenziert die Issue ID von GitHub*
+// Wie ist der Status der im letzten Sprint erstellten Issues/veteilten Aufgaben?
+
+// See http://asciidoctor.org/docs/user-manual/=tables
+[option="headers"]
+|===
+|Issue |Aufgabe |Status |Bemerkung
+|Protect Catering routes and Tabs     |
+*protect routes 
+|Open                |Assigned to Philipp
+
+|publish festival     |Allow the festivalLeiter to puvlish a festival if all parameters are set            |Closed               |Assigned to Conrad 
+|Lineup in festival view     |Show Lineup in Detail view            | Closed        |Assigned to Conrad , Franz     
+|Ansicht Künstler     |*Lineup connected to a festival
+*View of all the bands assigned to a lineup
+
+*edit the bands
+
+*add and delete bands| Closed        |Assigned to Franz     
+
+|Reorder item specific to festival     |*depend from logged in userAccount |Closed  | Assigned to Philipp          
+|Stock Specific view     |*is depended from userAccount |Closed                |Assigned to Philipp
+|Catering Mangement / add Item to Catalog festival specific view     |*is depended from logged in userAccount  |Closed                |Assigned to Philipp
+|Catalog festival specific view    |*is depended from userAccount   |Closed                |Assigned to Philipp
+|Festival validation   |*name
+ 
+ *begin date must not be befor current day
+ 
+ *begin date befor end date
+ 
+ *location must be free in timespan   |Closed                |Assigned to Conrad
+|Freigabe Festival   |*A specific festival can be released    |Closed                |Assigned to Conrad
+
+|Nachrichten anzeigen(Gesendete und Empfangene)   |*show of messages  |Closed                |Assigned to Conrad
+
+|Ansicht Startseite  |*show of the main page   |Closed                |Assigned to Conrad
+
+|Items verkaufen  |*posibility to buy food in a festival  |Closed                |Assigned to Philipp
+
+|Item Nachbestellung  |*posibility to buy some more food when the food is almost over in a festival  |Closed                |Assigned to Philipp
+
+|Ansicht Startseite  |*show of the main page   |Closed                |Assigned to Conrad
+
+|Items zu festival zuteilen  |*posibilty to assign items to an specific festival   |Closed                |Assigned to Philipp
+
+|Zeitplan  |*lineup of a festival   |Closed                |Assigned to Franz
+
+
+
+|===
+
+
+== Current Status
+We are still continnuing working on the branch developer , and since now almost all of the basis functionalities have done , there are still some issues in the field of finance, but they will be done till sunday, we have started doing the must criteria and also most of it will be done till sunday. We have made a short meeting in Discord ( so short , that does not need a protocol for itself) to talk about the mid term presentation, and we have reached a understanding about how can we make it, and it will be rehearsed after the meeting of the 09.12.2021. Since now we have helped each other in the progress of making the basis functionalities and in the must criteria, which I found really good. At the time we have not faced any problem whatsoever.
+
+
+== Planning of the next sprint
+*Issue referenziert die Issue ID von GitHub*
+
+// See http://asciidoctor.org/docs/user-manual/=tables
+[option="headers"]
+|===
+|Issue |Titel |Beschreibung |Verantwortlicher |Status
+|#33     |Test     |testing of the project            |Franz, Philipp, Conrad, Aleksey, Cornelius             |Open
+|#58     |make one radiobutton field checked by default     |in catering html template           |Philipp                |Open
+|#57    |Fix image upload    |delete old image before saving new one           |Conrad               |Open
+|#54    |automatische Nachrichten   |the page gives an automatic message, when someone writes to the festivalleiter            |Conrad , Philipp, Cornelius             |Open
+|#50    |Tickets drücken    |when a customer buys a ticket, it gets the pressed ticket            |Franz, Aleksey              |Open
+|#49    |Ticketerstellung    |Create a ticket           |Franz , Aleksey             |Open
+|#48    |Ticketverkauf     |the customer has the posibility to buy a ticket          |Aleksey, Franz              |Open
+|#47    |Personal abrechnen   |posibility to bill the staff           |Cornelius            |Open
+|#46    |Items abrechnen    |posibility to bill the items         |Cornelius              |Open
+|#45    |Einnahmen abrechnen(tickets)   | posbility to bill the ticktes          |Cornelius             |Open
+|#38    |Künstler abrechnen     |posiblity to bill the artist          |Cornelius              |Open
+|#37    |Location abrechnen     |posiblity to bill the location             |Cornelius             |Open
+|#36    |Finanzbericht    |template of the finances of a festival           |Cornelius           |Open
+          
+
+
+|===
+
+

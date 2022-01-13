@@ -1,0 +1,57 @@
+=== Meeting at the 18.11.2021
+
+Place: APB       +
+Start:   16:40 Uhr +
+End:     17:50
+
+__Person that will write:__ Franz Nolasco
+
+Next Meeting :* 25.11.2021
+
+
+__Participants:__
+//Tabellarisch oder Aufzählung, Kennzeichnung von Teilnehmern mit besonderer Rolle (z.B. Kunde)
+
+- Franz 
+- Conrad 
+- Aleksey
+- Philipp
+- Cornelius
+- Tom (Tutor)
+
+== Remarks
+- In this meeting we have received the verdict of the tutor according our prototype.
+- We have been told that since now we need to do the actual code with the respective basis functionalities in another branch (branch "Develop")
+- The test cases of each class need to be started
+- Actual working code needs to be started (the basis functionalities oh each package need to be started)
+- The packages/classes/issues have been distributed to each of us 
+- We have received a feed back of the GUI of our prototyp and also about our developers documentation and till the next meeting the problems that have been found will be solved.
+   
+== Retrospective of the last sprint
+*Issue referenziert die Issue ID von GitHub*
+// Wie ist der Status der im letzten Sprint erstellten Issues/veteilten Aufgaben?
+
+// See http://asciidoctor.org/docs/user-manual/=tables
+[option="headers"]
+|===
+|Issue |Aufgabe |Status |Bemerkung
+|…     |…     |…            |…  
+|===
+
+
+== Current Status
+We are going to use the scratch of our prototype as start point for the actual code that we need to do, luckily the packages and classes have been already split to each of us
+some of the basis functionalities have been already made, but most of them are still missing , now the "ROLES" of the package "authentication " are really important , because of it depends 
+which role can actually modify the basis functionalities of each class, and for that reason each role needs to have its each GUI. Each one is responsible of the test cases of its own classes and also
+Issues finally are going to be created in the new branch . Since now he have not faced any problem yet.
+
+
+== Planning of the next sprint
+*Issue referenziert die Issue ID von GitHub*
+
+// See http://asciidoctor.org/docs/user-manual/=tables
+[option="headers"]
+|===
+|Issue |Titel |Beschreibung |Verantwortlicher |Status
+|…     |…     |…            |…                |…
+|===

@@ -1,0 +1,131 @@
+=== Meeting at the 25.11.2021
+
+Place: BBB       +
+Start:   16:40 Uhr +
+End:     17:50
+
+__Person that will write:__ Franz Nolasco
+
+Next Meeting :* 02.12.2021
+
+
+__Participants:__
+//Tabellarisch oder Aufzählung, Kennzeichnung von Teilnehmern mit besonderer Rolle (z.B. Kunde)
+
+- Franz 
+- Conrad 
+- Aleksey
+- Philipp
+- Cornelius
+- Tom (Tutor)
+
+== Remarks
+- In this meeting we have received a feedback of our prototype , saddly it was not the best
+- Some remarks of each class diagramms have been given and they need to be taken seriously
+- A feedback of the developers documentation also has been given
+- Some mistakes by the diagramms need to be resolved
+- The basis functionalities of each package has been started and they are due till next meeting 
+- Some issues with the basis functionalities have been solved ( edited till next meeting )
+- The tutor has helped us with some bugs and questions that we had about the framework
+== Retrospective of the last sprint
+*Issue referenziert die Issue ID von GitHub*
+// Wie ist der Status der im letzten Sprint erstellten Issues/veteilten Aufgaben?
+
+// See http://asciidoctor.org/docs/user-manual/=tables
+[option="headers"]
+|===
+|Issue |Aufgabe |Status |Bemerkung
+|Produkt nachbestellen|*create reorder Class template
+
+*add reorder form to stock template
+
+*implement reorder methos in StockController       |Closed      |Assigned to Philipp
+|Personal löschen|create method to delete Personal       |Closed     |Assigned to Aleksey
+|Personla bearbeiten|create method to edit personal       |Closed      |Assigned to Aleksey
+|Person anlegen|create method to add personal       |Closed      |Assigned to Aleksey
+|Detailansicht einer person|template where one can see the details of a person      |Closed      |Assigned to Aleksey
+|Ansicht Personal|template where one can see all the personal   |Closed      |Assigned to Aleksey
+|Login|user should ve able to login       |Closed      |Assigned to Aleksey
+|Item löschen (aus Katalog)|* add delete button to catalog template 
+
+*implement deleteItemFromCatalog method in CateringController
+
+*implement deleteItemFromCatalog method in CateringManagement 
+
+*implement deleteAllInventoryItems method in StockController
+
+*implement deleteAllInventoryItems method in StockManagement       |Closed      |Assigned to Philipp 
+|Item bearbeiten ( Katalog)|
+*create edit catalog item html template page
+
+*add route in CateringController to catalog itm html page
+
+*implement editItemFromcatalog method in CateringController
+
+*implement editItemFromCatalog method in CateringManagement|Closed      |Assigned to Philipp
+|Item anlegen (im Katalog)|
+*create FoodItemForm
+
+*create ctaering_management html template
+
+*implement addItemToCatalog in Controller Class (CateringController) 
+
+*implement addItemToCatalog in Management Class (CateringManagement) |Closed      
+
+|Assigned to Philipp
+|Ansicht Lager|*create html template for stock
+ *implement Controller method: getCurrentStock()
+ 
+ *implement Managment method: getCurrentStock()
+ 
+ *create Datainitializer for Food Catalog
+ 
+ *create Datainitializer for UniqueInventoryItems
+ 
+ *create FoodCatalog
+ 
+ *create Food Class       |Closed      |Assigned to Philipp
+|Location Festival zuordnen|Assign location to Festival       |Closed      |Assigned to Conrad
+|Location löschen|delete Location       |Closed      |Assigned to Conrad
+|Location bearbeiten|edit location       |Closed      |Assigned to Conrad
+|Location anlegen|create location |Closed      |Assigned to Conrad
+|Detailansicht einer Location|template where one can see the details of a location       |Closed      |Assigned to Conrad
+|Ansicht Locations|template where one can see all the locations     |Closed      |Assigned to Conrad
+|Festival löschen |delete Festival      |Closed      |Assigned to Conrad
+|Festival bearbeiten|edit Festival       |Closed      |Assigned to Conrad
+|Festival anlegen(Name, Datum, Location, Künstler)|method to add festival       |Closed      |Assigned to Conrad
+|Detailansicht Festivals | Method to see all the details of a specific festival       |Closed      |Assigned to Conrad
+|Ansicht Festivals|template where one can see all the festivals      |Closed      |Assigned to Conrad
+|===
+
+
+== Current Status
+The branch Develop has been created and also has been merged with the branch main quite regularly, some problems with the basis functionalities have been founded and hopefully they are going to be solved till next meeting, the class diagramms need to be updated with the current classes that each of us have , and also some problems with it need to be solved. Since now we haven’t 
+which role can actually modify the basis functionalities of each class, and for that reason each role needs to have its each GUI. Each one is responsible of the test cases of its own classes and also some issues have been resolved ( this one is going to be edited till next meeting).Right now each of us is really busy with his each basis functionalities. Since we have not faced any problems. 
+
+
+
+== Planning of the next sprint
+*Issue referenziert die Issue ID von GitHub*
+
+// See http://asciidoctor.org/docs/user-manual/=tables
+[option="headers"]
+|===
+|Issue |Titel |Beschreibung |Verantwortlicher |Status
+|#33     |Test     |testing of the project            |Franz, Philipp, Conrad, Aleksey, Cornelius             |Open
+|#30     |Protect Catering routes and Tabs     |*protect tabs
+
+*protect routes 
+|Philipp                |Open
+|#29     |publish festival     |Allow the festivalLeiter to puvlish a festival if all parameters are set            |Conrad                |Open
+|#28    |Lineup in festival view     |Show Lineup in Detail view            |Conrad , Franz              |Open
+|#17    |Ansicht Künstler     |*Lineup connected to a festival
+
+*View of all the bands assigned to a lineup
+
+*edit the bands
+
+*add and delete bands           |Franz                |Open
+
+|===
+
